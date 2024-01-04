@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="/css/adminDashboard.css">
+</head>
+<body>
+  <h1>Admin Dashboard</h1>
+
+<!-- User Statistics Section -->
+<div class="statistics-container">
+  <div class="statistics-card">
+    <div class="statistics-value" id="visitsToday">...</div>
+    <div class="statistics-title">VISITS TODAY</div>
+  </div>
+  <div class="statistics-card">
+    <div class="statistics-value" id="visitsPerMonth">...</div>
+    <div class="statistics-title">VISITS PER MONTH</div>
+  </div>
+  <div class="statistics-card">
+    <div class="statistics-value" id="avgActivePastWeek">...</div>
+    <div class="statistics-title">AVG ACTIVE LAST 7 DAYS</div>
+  </div>
+</div>
+
+
+  <!-- User Data Table -->
+  <table id="usersTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Sign-Up Timestamp</th>
+        <th>Login Count</th>
+        <th>Last Session Timestamp</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- User data will be loaded here -->
+    </tbody>
+  </table>
+
+  <script src="/js/adminDashboard.js"></script>
+</body>
+</html>

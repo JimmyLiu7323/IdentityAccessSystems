@@ -1,0 +1,199 @@
+2024-01-04T05:42:54.495Z - INFO - Connected to Redis successfully.
+2024-01-04T05:43:01.698Z - INFO - User fetched for ID: 71
+2024-01-04T05:43:01.701Z - INFO - Serving Signup Page
+2024-01-04T06:15:34.313Z - INFO - Connected to Redis successfully.
+2024-01-04T06:15:39.178Z - WARN - User not found for ID: 71
+2024-01-04T06:15:39.179Z - ERROR - Error fetching user by ID: 71: User not found
+2024-01-04T06:15:39.179Z - ERROR - deserializeUser Error:  Error fetching user
+2024-01-04T06:20:40.835Z - INFO - Connected to Redis successfully.
+2024-01-04T06:20:44.038Z - ERROR - deserializeUser id: 
+2024-01-04T06:20:44.043Z - WARN - User not found for ID: 71
+2024-01-04T06:20:44.044Z - ERROR - Error fetching user by ID: 71: User not found
+2024-01-04T06:20:44.044Z - ERROR - deserializeUser Error:  Error fetching user
+2024-01-04T06:21:26.243Z - INFO - Connected to Redis successfully.
+2024-01-04T06:21:27.482Z - ERROR - deserializeUser id: 
+2024-01-04T06:21:27.487Z - WARN - User not found for ID: 71
+2024-01-04T06:21:27.488Z - ERROR - Error fetching user by ID: 71: User not found
+2024-01-04T06:21:27.488Z - ERROR - deserializeUser Error:  Error fetching user
+2024-01-04T06:24:21.928Z - INFO - Connected to Redis successfully.
+2024-01-04T06:24:25.454Z - WARN - User not found for ID: 71
+2024-01-04T06:24:25.457Z - INFO - Serving Signup Page
+2024-01-04T06:27:08.056Z - INFO - Attempting to verify email with token:
+2024-01-04T06:27:08.062Z - WARN - Invalid verification token:
+2024-01-04T06:46:43.153Z - INFO - Received callback from Google, processing authentication
+2024-01-04T06:46:46.606Z - INFO - Initiating Google OAuth flow
+2024-01-04T06:46:46.836Z - INFO - Received callback from Google, processing authentication
+2024-01-04T06:46:46.971Z - WARN - User not found for email: wishs900g3@gmail.com
+2024-01-04T06:46:46.981Z - INFO - New user created: wishs900g3@gmail.com
+2024-01-04T06:46:46.984Z - INFO - User activity logged for user ID: 96
+2024-01-04T06:46:46.991Z - INFO - User fetched for ID: 96
+2024-01-04T06:46:46.992Z - INFO - Accessing dashboard...
+2024-01-04T06:46:46.992Z - INFO - Authenticated user ID: 96
+2024-01-04T06:46:46.993Z - INFO - User found: wishs900g3@gmail.com
+2024-01-04T06:46:46.993Z - INFO - User signed in via Google OAuth. Dashboard access granted.
+2024-01-04T06:46:47.023Z - INFO - User fetched for ID: 96
+2024-01-04T06:47:22.467Z - INFO - User fetched for ID: 96
+2024-01-04T06:47:22.469Z - INFO - Logging out user ID: 96
+2024-01-04T06:47:22.469Z - INFO - Attempting to delete user token from Redis...
+2024-01-04T06:47:22.469Z - INFO - User token deleted from Redis for user ID: 96, response: 0
+2024-01-04T06:47:22.469Z - INFO - Destroying session ID: ZWsBad7XvgbfaTsjVqlSxJ8kBmMjO1sZ
+2024-01-04T06:47:22.470Z - INFO - User logged out, destroying session...
+2024-01-04T06:47:22.470Z - INFO - Session destroyed successfully for user ID: 96
+2024-01-04T06:47:35.923Z - INFO - Serving Signup Page
+2024-01-04T06:47:39.832Z - INFO - Initiating Google OAuth flow
+2024-01-04T06:47:40.061Z - INFO - Received callback from Google, processing authentication
+2024-01-04T06:47:40.170Z - INFO - User found for email: wishs900g3@gmail.com
+2024-01-04T06:47:40.177Z - INFO - User activity logged for user ID: 96
+2024-01-04T06:47:40.182Z - INFO - User fetched for ID: 96
+2024-01-04T06:47:40.183Z - INFO - Accessing dashboard...
+2024-01-04T06:47:40.183Z - INFO - Authenticated user ID: 96
+2024-01-04T06:47:40.184Z - INFO - User found: wishs900g3@gmail.com
+2024-01-04T06:47:40.184Z - INFO - User signed in via Google OAuth. Dashboard access granted.
+2024-01-04T06:47:40.210Z - INFO - User fetched for ID: 96
+2024-01-04T06:47:55.162Z - INFO - User fetched for ID: 96
+2024-01-04T06:47:55.163Z - INFO - Logging out user ID: 96
+2024-01-04T06:47:55.163Z - INFO - Attempting to delete user token from Redis...
+2024-01-04T06:47:55.163Z - INFO - User token deleted from Redis for user ID: 96, response: 0
+2024-01-04T06:47:55.164Z - INFO - Destroying session ID: OMiQ-l2kJfC88M6OAfIMLbdCK4kyQdgZ
+2024-01-04T06:47:55.164Z - INFO - User logged out, destroying session...
+2024-01-04T06:47:55.165Z - INFO - Session destroyed successfully for user ID: 96
+2024-01-04T06:51:42.390Z - INFO - Connected to Redis successfully.
+2024-01-04T07:05:00.303Z - INFO - Serving Signup Page
+2024-01-04T07:05:02.525Z - INFO - Initiating Google OAuth flow
+2024-01-04T07:05:02.773Z - INFO - Received callback from Google, processing authentication
+2024-01-04T07:05:02.927Z - INFO - User found for email: wishs900g3@gmail.com
+2024-01-04T07:05:02.940Z - INFO - User activity logged for user ID: 96
+2024-01-04T07:05:02.947Z - INFO - User fetched for ID: 96
+2024-01-04T07:05:02.948Z - INFO - Accessing dashboard...
+2024-01-04T07:05:02.949Z - INFO - Authenticated user ID: 96
+2024-01-04T07:05:02.950Z - INFO - User found: wishs900g3@gmail.com
+2024-01-04T07:05:02.950Z - INFO - User signed in via Google OAuth. Dashboard access granted.
+2024-01-04T07:05:02.980Z - INFO - User fetched for ID: 96
+2024-01-04T07:06:07.971Z - INFO - User fetched for ID: 96
+2024-01-04T07:06:07.972Z - INFO - Logging out user ID: 96
+2024-01-04T07:06:07.972Z - INFO - Attempting to delete user token from Redis...
+2024-01-04T07:06:07.972Z - INFO - User token deleted from Redis for user ID: 96, response: 0
+2024-01-04T07:06:07.973Z - INFO - Destroying session ID: kNZxMqduostxKpvjNlt_mlrtvlQUfl_i
+2024-01-04T07:06:07.974Z - INFO - User logged out, destroying session...
+2024-01-04T07:06:07.974Z - INFO - Session destroyed successfully for user ID: 96
+2024-01-04T07:06:26.228Z - INFO - Initiating Google OAuth flow
+2024-01-04T07:06:26.450Z - INFO - Received callback from Google, processing authentication
+2024-01-04T07:06:26.566Z - INFO - User found for email: wishs900g3@gmail.com
+2024-01-04T07:06:26.572Z - INFO - User activity logged for user ID: 96
+2024-01-04T07:06:26.578Z - INFO - User fetched for ID: 96
+2024-01-04T07:06:26.578Z - INFO - Accessing dashboard...
+2024-01-04T07:06:26.579Z - INFO - Authenticated user ID: 96
+2024-01-04T07:06:26.580Z - INFO - User found: wishs900g3@gmail.com
+2024-01-04T07:06:26.580Z - INFO - User signed in via Google OAuth. Dashboard access granted.
+2024-01-04T07:06:26.604Z - INFO - User fetched for ID: 96
+2024-01-04T07:08:37.173Z - INFO - User fetched for ID: 96
+2024-01-04T07:08:37.174Z - INFO - Received callback from Google, processing authentication
+2024-01-04T07:08:37.179Z - INFO - User fetched for ID: 96
+2024-01-04T07:38:59.979Z - INFO - Connected to Redis successfully.
+2024-01-04T07:39:53.192Z - INFO - Signup attempt for email: wishs900g3@qq.com
+2024-01-04T07:39:53.193Z - INFO - Role set to:
+2024-01-04T07:39:53.261Z - INFO - New user created: wishs900g3@qq.com
+2024-01-04T07:39:53.261Z - INFO - Local user created with ID: 97
+2024-01-04T07:39:53.264Z - INFO - Activity log created for user ID: 97
+2024-01-04T07:39:53.268Z - INFO - Verification token stored for user ID: 97
+2024-01-04T07:39:56.152Z - INFO - Email sent successfully:
+2024-01-04T07:39:56.152Z - INFO - Verification email sent to: wishs900g3@qq.com
+2024-01-04T07:39:56.155Z - INFO - User logged in successfully, user ID: 97
+2024-01-04T07:46:59.514Z - INFO - Connected to Redis successfully.
+2024-01-04T07:47:06.142Z - INFO - Signup attempt for email: wishs900g3@qq.com
+2024-01-04T07:47:06.208Z - INFO - New user created: wishs900g3@qq.com
+2024-01-04T07:47:06.208Z - INFO - Local user created with ID: 98
+2024-01-04T07:47:06.211Z - INFO - Activity log created for user ID: 98
+2024-01-04T07:47:06.216Z - INFO - Verification token stored for user ID: 98
+2024-01-04T07:47:08.194Z - INFO - Email sent successfully:
+2024-01-04T07:47:08.194Z - INFO - Verification email sent to: wishs900g3@qq.com
+2024-01-04T07:47:08.196Z - INFO - User logged in successfully, user ID: 98
+2024-01-04T07:48:49.430Z - INFO - Connected to Redis successfully.
+2024-01-04T07:48:51.320Z - INFO - Signup attempt for email: wishs900g3@qq.com
+2024-01-04T07:48:51.320Z - INFO - Signup attempt for role: admin
+2024-01-04T07:48:51.386Z - INFO - New user created: wishs900g3@qq.com
+2024-01-04T07:48:51.387Z - INFO - Local user created with ID: 99
+2024-01-04T07:48:51.390Z - INFO - Activity log created for user ID: 99
+2024-01-04T07:48:51.394Z - INFO - Verification token stored for user ID: 99
+2024-01-04T07:48:53.363Z - INFO - Email sent successfully:
+2024-01-04T07:48:53.363Z - INFO - Verification email sent to: wishs900g3@qq.com
+2024-01-04T07:48:53.365Z - INFO - User logged in successfully, user ID: 99
+2024-01-04T07:52:26.571Z - INFO - Connected to Redis successfully.
+2024-01-04T07:52:33.235Z - INFO - Signup attempt for email: wishs900g3@qq.com
+2024-01-04T07:52:33.235Z - INFO - Signup attempt for role: admin
+2024-01-04T07:52:33.290Z - ERROR - Error in createUser for wishs900g3@qq.com: role is not defined
+2024-01-04T07:52:33.291Z - ERROR - Error creating local user: Error: Error creating user
+2024-01-04T07:53:50.233Z - INFO - Connected to Redis successfully.
+2024-01-04T07:53:53.471Z - INFO - Signup attempt for email: wishs900g3@qq.com
+2024-01-04T07:53:53.472Z - INFO - Signup attempt for role: admin
+2024-01-04T07:53:53.528Z - ERROR - Error in createUser for wishs900g3@qq.com: role is not defined
+2024-01-04T07:53:53.528Z - ERROR - Error creating local user: Error: Error creating user
+2024-01-04T08:00:33.572Z - INFO - Connected to Redis successfully.
+2024-01-04T08:00:37.075Z - INFO - Signup attempt for email: wishs900g3@qq.com
+2024-01-04T08:00:37.075Z - INFO - Signup attempt for role: admin
+2024-01-04T08:00:37.141Z - INFO - New user created: wishs900g3@qq.com
+2024-01-04T08:00:37.141Z - INFO - Local user created with ID: 100
+2024-01-04T08:00:37.144Z - INFO - Activity log created for user ID: 100
+2024-01-04T08:00:37.149Z - INFO - Verification token stored for user ID: 100
+2024-01-04T08:00:39.239Z - INFO - Email sent successfully:
+2024-01-04T08:00:39.239Z - INFO - Verification email sent to: wishs900g3@qq.com
+2024-01-04T08:00:39.241Z - INFO - User logged in successfully, user ID: 100
+2024-01-04T08:11:34.516Z - INFO - Connected to Redis successfully.
+2024-01-04T08:11:44.941Z - INFO - Serving Signup Page
+2024-01-04T08:13:52.748Z - INFO - Signup attempt for email: wishs900g3@yahoo.com.tw
+2024-01-04T08:13:52.748Z - INFO - Signup attempt for role: undefined
+2024-01-04T08:13:52.815Z - INFO - New user created: wishs900g3@yahoo.com.tw
+2024-01-04T08:13:52.816Z - INFO - Local user created with ID: 101
+2024-01-04T08:13:52.820Z - INFO - Activity log created for user ID: 101
+2024-01-04T08:13:52.823Z - INFO - Verification token stored for user ID: 101
+2024-01-04T08:13:54.768Z - INFO - Email sent successfully:
+2024-01-04T08:13:54.768Z - INFO - Verification email sent to: wishs900g3@yahoo.com.tw
+2024-01-04T08:13:54.770Z - INFO - User logged in successfully, user ID: 101
+2024-01-04T08:13:56.455Z - INFO - User fetched for ID: 101
+2024-01-04T08:13:56.457Z - INFO - Accessing dashboard...
+2024-01-04T08:13:56.457Z - INFO - Authenticated user ID: 101
+2024-01-04T08:13:56.458Z - INFO - User found: wishs900g3@yahoo.com.tw
+2024-01-04T08:13:56.459Z - INFO - User email not verified. Showing resend verification link.
+2024-01-04T08:13:56.464Z - INFO - User fetched for ID: 101
+2024-01-04T08:13:56.465Z - INFO - Serving email verification page
+2024-01-04T08:15:25.540Z - INFO - User fetched for ID: 101
+2024-01-04T08:15:25.542Z - INFO - Attempting to verify email with token:
+2024-01-04T08:15:25.547Z - INFO - Email verified successfully for user:
+2024-01-04T08:15:25.559Z - INFO - User fetched for ID: 101
+2024-01-04T08:15:30.614Z - INFO - User fetched for ID: 101
+2024-01-04T08:15:30.616Z - INFO - Accessing dashboard...
+2024-01-04T08:15:30.616Z - INFO - Authenticated user ID: 101
+2024-01-04T08:15:30.617Z - INFO - User found: wishs900g3@yahoo.com.tw
+2024-01-04T08:15:30.618Z - INFO - Retrieving token from Redis with key: user_token:101
+2024-01-04T08:15:30.618Z - INFO - Token retrieved from Redis:
+2024-01-04T08:15:30.620Z - INFO - Token successfully verified. Dashboard access granted.
+2024-01-04T08:15:30.651Z - INFO - User fetched for ID: 101
+2024-01-04T08:16:37.800Z - INFO - Signup attempt for email: wishs900g3@qq.com
+2024-01-04T08:16:37.800Z - INFO - Signup attempt for role: admin
+2024-01-04T08:16:37.858Z - INFO - New user created: wishs900g3@qq.com
+2024-01-04T08:16:37.858Z - INFO - Local user created with ID: 102
+2024-01-04T08:16:37.861Z - INFO - Activity log created for user ID: 102
+2024-01-04T08:16:37.864Z - INFO - Verification token stored for user ID: 102
+2024-01-04T08:16:39.830Z - INFO - Email sent successfully:
+2024-01-04T08:16:39.830Z - INFO - Verification email sent to: wishs900g3@qq.com
+2024-01-04T08:16:39.831Z - INFO - User logged in successfully, user ID: 102
+2024-01-04T08:16:48.970Z - INFO - User fetched for ID: 101
+2024-01-04T08:16:48.971Z - INFO - Attempting to verify email with token:
+2024-01-04T08:16:48.976Z - INFO - Email verified successfully for user:
+2024-01-04T08:16:48.983Z - INFO - User fetched for ID: 101
+2024-01-04T08:16:54.034Z - INFO - User fetched for ID: 101
+2024-01-04T08:16:54.035Z - INFO - Accessing dashboard...
+2024-01-04T08:16:54.035Z - INFO - Authenticated user ID: 101
+2024-01-04T08:16:54.036Z - INFO - User found: wishs900g3@yahoo.com.tw
+2024-01-04T08:16:54.036Z - INFO - Retrieving token from Redis with key: user_token:101
+2024-01-04T08:16:54.036Z - INFO - Token retrieved from Redis:
+2024-01-04T08:16:54.037Z - INFO - Token successfully verified. Dashboard access granted.
+2024-01-04T08:16:54.065Z - INFO - User fetched for ID: 101
+2024-01-04T08:20:07.223Z - INFO - User fetched for ID: 101
+2024-01-04T08:20:07.224Z - INFO - Serving Signup Page
+2024-01-04T08:20:19.346Z - INFO - User fetched for ID: 101
+2024-01-04T08:20:19.348Z - INFO - Signup attempt for email: wishs900g3@yahoo.com.tw
+2024-01-04T08:20:19.348Z - INFO - Signup attempt for role: undefined
+2024-01-04T08:20:19.349Z - WARN - Attempt to create a duplicate user: wishs900g3@yahoo.com.tw
+2024-01-04T08:20:19.349Z - ERROR - Error in createUser for wishs900g3@yahoo.com.tw: User already exists
+2024-01-04T08:20:19.349Z - ERROR - Error creating local user: Error: Error creating user

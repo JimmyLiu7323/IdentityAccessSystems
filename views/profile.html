@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="/css/profile.css">
+</head>
+<body>
+  <div class="profile-container">
+    <h1>User Profile</h1>
+
+    <div class="profile-info">
+        <p>Email: <span id="email"></span></p>
+        <p>Name: <span id="name"></span></p>  
+    </div>
+
+    <!-- Form to update the user's name -->
+    <form id="updateNameForm" action="/profile/updateName" method="post">
+      <input type="text" name="name" placeholder="Enter new name" required>
+      <button type="submit">Update Name</button>
+    </form>    
+    <button id="logoutButton" class="logout-button" onclick="logout()">Logout</button>
+  </div>
+
+  <script src="/js/profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info p {
+    font-size: 18px;
+    color: #333;
+}
+
+#updateNameForm {
+    margin-top: 20px;
+}
+
+#updateNameForm input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#updateNameForm button,
+#logoutButton { /* Apply similar styles to the logout button */
+    background-color: #d9534f; /* Red color for logout */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px; /* Add margin for spacing */
+}
+
+#updateNameForm button:hover,
+#logoutButton:hover { /* Hover effect for both buttons */
+    opacity: 0.9;
+}

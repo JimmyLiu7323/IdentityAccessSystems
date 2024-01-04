@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/css/dashboard.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="dashboard-header">
+            <h1>Welcome to Your Dashboard</h1>
+            <p class="username">User: <span id="username">[Username]</span></p>
+        </div>
+        <button class="logout-button" onclick="logout()">Logout</button>
+        
+        <!-- Password Reset Form -->
+        <div class="password-reset-form" id="resetPasswordSection" style="display: none;"> <!-- Initially hidden -->
+            <h2>Reset Password</h2>
+            <form id="resetPasswordForm">
+                <input type="password" id="oldPassword" name="oldPassword" placeholder="Old Password" required>
+                <input type="password" id="newPassword" name="newPassword" placeholder="New Password" required>
+                <input type="password" id="confirmNewPassword" name="confirmNewPassword" placeholder="Confirm New Password" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <!-- User Data Table -->
+        <!-- <div class="user-data-section">
+            <h2>User Data</h2>
+            <table id="userData">
+                <thead>
+                    <tr>
+                        <th>Sign-up Timestamp</th>
+                        <th>Login Count</th>
+                        <th>Last Session Timestamp</th>
+                    </tr>
+                </thead>
+                <tbody>
+               </tbody>
+            </table>
+        </div> -->
+    </div>
+
+    <script src="/js/dashboard.js"></script>
+</body>
+</html>

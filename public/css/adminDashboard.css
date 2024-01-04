@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.statistics-container {
+    display: flex;
+    justify-content: space-evenly; /* This will space the cards evenly */
+    align-items: center; /* This will vertically center the cards if they are of different heights */
+    flex-wrap: nowrap; /* Prevent wrapping of cards */
+    margin: 20px 0;
+  }
+
+  .statistics-card {
+    flex-grow: 1; /* Cards can grow to fill the space */
+    flex-basis: 0; /* Start at 0 width, grow from there */
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: #ffffff;
+  }
+
+  .statistics-value {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 0.5rem;
+  }
+  
+
+.statistics-title {
+    font-size: 1rem;
+    color: #6c757d;
+    text-transform: uppercase;
+}
+
+/* Styles for the users table */
+#usersTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-top: 20px;
+}
+
+#usersTable th, #usersTable td {
+    border: 1px solid #dee2e6;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+#usersTable th {
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .statistics-container {
+        flex-direction: column;
+    }
+  
+    .statistics-card {
+        margin-bottom: 20px;
+        flex-basis: auto;
+    }
+}

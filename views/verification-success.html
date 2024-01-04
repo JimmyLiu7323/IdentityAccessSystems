@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Verification Success</title>
+    <script>
+        function openDashboard() {
+            window.open('/dashboard', '_blank');
+        }
+
+        // Function to redirect after a delay with a countdown
+        function redirectToDashboard() {
+            var countdown = 5;
+            var countdownDisplay = document.getElementById('countdown');
+
+            var timer = setInterval(function() {
+                countdown -= 1;
+                countdownDisplay.textContent = countdown;
+
+                if (countdown <= 0) {
+                    clearInterval(timer);
+                    window.location.href = '/dashboard';
+                }
+            }, 1000);
+        }
+    </script>
+</head>
+<body onload="redirectToDashboard()">
+    <h1>Your email has been verified successfully!</h1>
+    <p>Redirecting to the dashboard in <span id="countdown">5</span> seconds...</p>
+    <p>If the dashboard does not open automatically, <a href="javascript:openDashboard()">click here</a> to open it.</p>
+</body>
+</html>

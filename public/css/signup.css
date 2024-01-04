@@ -1,0 +1,95 @@
+/* Base container styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7f6;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Style the form */
+.signup-form {
+    width: 50%; /* Increase the width of the form */
+    max-width: 600px; /* Set a max-width for larger screens */
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the heading */
+.signup-form h2 {
+    margin-bottom: 1rem;
+    color: #333;
+    font-size: 2rem;
+}
+
+/* Style the input fields */
+.signup-form .input-group input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Style the submit button */
+.signup-form button[type="submit"],
+.signup-form .google-signup-btn {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+/* Primary action button */
+.signup-form button[type="submit"] {
+    background-color: #4caf50; /* A richer shade of green */
+    color: white;
+}
+
+/* Google Sign-Up button styles */
+.google-signup-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4285f4; /* A Google blue color */
+    color: white;
+    cursor: pointer;
+}
+
+/* Google logo styles */
+.google-logo {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* Button hover effects */
+button:hover,
+.google-signup-btn:hover {
+    opacity: 0.85;
+    filter: brightness(110%);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .signup-form {
+        width: 75%;
+        margin: 1rem;
+        padding: 1rem;
+    }
+}
+
+/* Ensure that the form is centered on the page */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f4f7f6;
+}

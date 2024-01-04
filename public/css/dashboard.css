@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+.dashboard-container {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Adjusted to accommodate the table */
+}
+
+.dashboard-header {
+    margin-bottom: 20px;
+}
+
+.username {
+    font-size: 24px;
+    color: #333;
+}
+
+.logout-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.logout-button:hover {
+    background-color: #0056b3;
+}
+
+.password-reset-form {
+    margin-top: 30px;
+}
+
+.password-reset-form h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.password-reset-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.password-reset-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.password-reset-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.password-reset-form button:hover {
+    background-color: #218838;
+}
+
+/* Styles for User Data Table */
+.user-data-section {
+    margin-top: 40px;
+    width: 100%; /* Ensure table spans the full width */
+}
+
+.user-data-section h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#userData {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#userData th, #userData td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#userData th {
+    background-color: #f8f8f8;
+}
+
+#userData tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
